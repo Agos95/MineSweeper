@@ -13,3 +13,9 @@ The idea is to replicate the code using:
 - [ ] Javascript (Browser)
 - [ ] Java (GUI)
 - [ ] Lua
+
+---
+
+## References
+
+- https://www.geeksforgeeks.org/cpp-implementation-minesweeper-game/
