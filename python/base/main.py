@@ -20,8 +20,8 @@ def parse_args():
 
 def main():
     args = parse_args()
-    game = MineSweeper(args["difficulty"])
-    game.display(cheat=True)
+    game = MineSweeper(args["difficulty"], fair=True)
+    game.play()
 
 
 # %%
