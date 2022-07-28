@@ -13,7 +13,20 @@
         <h1>MineSweeper</h1>
         <table id="board"></table>
         <br>
-        <button onclick="MakeBoard();">Reset</button>
+        <div>
+            <input type="radio" name="difficulty" id="beginner" value=0 checked>
+            <label for="beginner">Beginner</label>
+            <input type="radio" name="difficulty" id="intermediate" value=1>
+            <label for="intermediate">Intermediate</label>
+            <input type="radio" name="difficulty" id="advanced" value=2>
+            <label for="advanced">Advanced</label>
+        </div>
+        <br>
+        <div>
+            <button onclick="GetDifficulty();MakeBoard();">Reset</button>
+        </div>
+
+
     </div>
 
     <script src="minesweeper.js"></script>
