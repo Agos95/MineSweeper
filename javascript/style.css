@@ -1,0 +1,18 @@
+.centerd {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#board {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#board TR TD {
+    border: 1px solid white;
+    background: #999999;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
